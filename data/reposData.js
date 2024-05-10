@@ -1,0 +1,167 @@
+const repoData = [
+  {
+  id: 1,
+  title: "My very first gitHub repo",
+  creatorId: 1,
+  description: "This repo basically has nothing in it and is just an experiment in how to make a repo for beginners",
+  tags:["fun", "first", "practice"],
+  userFavorite: true,
+  forks: 5,
+  language: "html",
+  updated: 12/25/2021
+  },
+  {
+    id: 2,
+    title: "Harry Potter Sorting Hat App",
+    creatorId: 2,
+    description: "This app simulates the Harry Potter Sorting Hat and Sorts a name input into one of the four Harry Potter houses.",
+    tags:["Harry Potter", "sorting hat", "wizards"],
+    userFavorite: false,
+    forks: 5,
+    language: "JavaScript",
+    updated: 5/10/2021 
+  },
+  {
+    id: 3,
+    title: "Weather App",
+    creatorId: 3,
+    description: "An app that shows current weather information based on user location.",
+    tags: ["weather", "forecast", "API"],
+    userFavorite: true,
+    forks: 10,
+    language: "JavaScript",
+    updated: "3/15/2022"
+  },
+  {
+    id: 4,
+    title: "To-Do List App",
+    creatorId: 4,
+    description: "A simple to-do list app to keep track of tasks.",
+    tags: ["todo", "tasks", "productivity"],
+    userFavorite: false,
+    forks: 3,
+    language: "Python",
+    updated: "7/20/2021"
+  },
+  {
+    id: 5,
+    title: "Recipe Finder",
+    creatorId: 5,
+    description: "An application that helps users find recipes based on ingredients they have.",
+    tags: ["recipe", "food", "cooking"],
+    userFavorite: true,
+    forks: 8,
+    language: "Java",
+    updated: "9/5/2021"
+  },
+  {
+    id: 6,
+    title: "Budget Tracker",
+    creatorId: 6,
+    description: "A tool to track personal finances and expenses.",
+    tags: ["budget", "finance", "money"],
+    userFavorite: true,
+    forks: 15,
+    language: "C#",
+    updated: "6/30/2021"
+  },
+  {
+    id: 7,
+    title: "Online Bookstore",
+    creatorId: 7,
+    description: "An e-commerce platform for buying and selling books online.",
+    tags: ["books", "e-commerce", "shopping"],
+    userFavorite: false,
+    forks: 6,
+    language: "Ruby",
+    updated: "4/10/2022"
+  },
+  {
+    id: 8,
+    title: "Music Player App",
+    creatorId: 8,
+    description: "An application for playing and managing music files.",
+    tags: ["music", "player", "audio"],
+    userFavorite: true,
+    forks: 12,
+    language: "Swift",
+    updated: "8/15/2021"
+  },
+  {
+    id: 9,
+    title: "Fitness Tracker",
+    creatorId: 9,
+    description: "A fitness app to track workouts, set goals, and monitor progress.",
+    tags: ["fitness", "health", "exercise"],
+    userFavorite: false,
+    forks: 7,
+    language: "React",
+    updated: "10/25/2021"
+  },
+  {
+    id: 10,
+    title: "Blog Platform",
+    creatorId: 10,
+    description: "A platform for creating and publishing blogs.",
+    tags: ["blog", "writing", "content"],
+    userFavorite: true,
+    forks: 9,
+    language: "PHP",
+    updated: "2/5/2022"
+  },
+  {
+    id: 11,
+    title: "Recipe Sharing App",
+    creatorId: 11,
+    description: "An app where users can share and discover new recipes.",
+    tags: ["recipe", "food", "cooking"],
+    userFavorite: true,
+    forks: 6,
+    language: "JavaScript",
+    updated: "11/12/2021"
+  },
+  {
+    id: 12,
+    title: "E-commerce Website",
+    creatorId: 12,
+    description: "An online platform for buying and selling various products.",
+    tags: ["e-commerce", "shopping", "online"],
+    userFavorite: false,
+    forks: 11,
+    language: "Python",
+    updated: "6/20/2021"
+  },
+  {
+    id: 13,
+    title: "Movie Recommendation System",
+    creatorId: 13,
+    description: "A system that recommends movies based on user preferences and viewing history.",
+    tags: ["movies", "recommendation", "AI"],
+    userFavorite: true,
+    forks: 4,
+    language: "Python",
+    updated: "4/5/2022"
+  },
+  {
+    id: 14,
+    title: "Language Learning App",
+    creatorId: 14,
+    description: "An app designed to help users learn new languages through interactive lessons.",
+    tags: ["language", "learning", "education"],
+    userFavorite: false,
+    forks: 8,
+    language: "React Native",
+    updated: "8/10/2021"
+  },
+  {
+    id: 15,
+    title: "Social Media Analytics Dashboard",
+    creatorId: 15,
+    description: "A dashboard for analyzing social media metrics and engagement.",
+    tags: ["social media", "analytics", "dashboard"],
+    userFavorite: true,
+    forks: 9,
+    language: "Python",
+    updated: "3/25/2022"
+  },
+]
