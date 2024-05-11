@@ -23,4 +23,4 @@ export const projects = [
     description : "No description",
     lastUpdate : "1 week ago"
   },
-]
+];
