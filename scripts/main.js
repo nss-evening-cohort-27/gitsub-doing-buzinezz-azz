@@ -8,3 +8,4 @@ const renderNav = () =>{
 
 
 renderNav();
+console.log("checking this out.")

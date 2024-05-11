@@ -1,7 +1,18 @@
-import { renderToDom } from "../utils/renderToDom";
+import { renderToDom } from "../utils/renderToDom.js";
+import { navStuff } from "../components/navbar.js";
 import { repos } from "../data/reposData";
 
-export const repoCard = (repos) => {
+const renderNav = () =>{
+  let nav = navStuff()
+  renderToDom("#navBar",nav)
+};
+
+renderNav();
+console.log("checking this out.")
+
+console.log("this should be coming from the repoCard module.")
+
+const repoCard = (repos) => {
   let domString ="";
   for (const repo of repos) {
 domString += `<div class="card" style="width: 18rem;">
@@ -14,8 +25,8 @@ domString += `<div class="card" style="width: 18rem;">
     <span class="forks">${repo.forks}</span>
     <span class="updated">${repos.updated}</span>
   </div>
-</div>
-  `
+</div>`
 }
-renderToDom("app", domString)
+renderToDom("#repos", domString)
 }
+console.log(repos)
