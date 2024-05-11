@@ -1,3 +1,5 @@
+import { renderToDom } from "../utils/renderToDom.js";
+
 const profileData = [
     {
     id: 1,
@@ -11,3 +13,4 @@ const profileData = [
     forks: 5,
     }
 ]
+

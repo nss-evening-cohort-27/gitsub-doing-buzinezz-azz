@@ -1,19 +1,50 @@
-<div id="pSection"></div>
 <!-- profile section -->
-   
-         <div class="row gutters-sm">
-           <div class="col-md-4 mb-3">
-             <div class="card">
-               <div class="card-body">
-                 <div class="d-flex flex-column align-items-center text-center">
-                   <img src="" alt="Test" class="rounded-circle" width="150">
-                   <div class="mt-3">
-                     <h4>Jane Doe</h4>
-                     <p class="text-secondary mb-1">Full Stack Developer</p>
-                     <p class="text-muted font-size-sm">Bronx, New York City, NY</p>
-                     <button class="btn btn-primary">Follow</button>
-                     <button class="btn btn-outline-primary">Message</button>
-                   </div>
-                 </div>
-               </div>
-             </div>
+<div id="pSection">
+    <div class="row gutters-md">
+        <div class="col-md-4 mb-3">
+        <div class="profile-card">
+        <div class="card-body">
+            <div class="d-flex flex-column">
+                <div id="profile-header text-align-left">
+                    <img id="profile-image" src="/assets/images/profileimage.png" alt="Test" class="rounded-circle" width="150">
+                    <h1 id="full-name" class="font-size-xl">Jane Doe</h1>
+                    <h3 id="preferred-name" class="font-size-md">Jannie</h3>
+                </div>
+                <div id="basic-about" class="align-items-left flex-wrap" >
+                    <p>Developing one code at a time</p>
+                    <p>CSS Style Queen</p>
+                </div>
+                <div id="profile-buttons" class="mt-3">
+                     <button class="btn btn-primaryjustify-content-center flex-wrap">Follow</button>
+                     <button class="btn btn-outline-primary justify-content-center flex-wrap">Sponsor</button>
+                     <button class="btn btn-outline-primary justify-content-center flex-wrap" >...</button>
+                </div>
+            <div id="follow-section" class="flex-order-1 flex-md-order-none mt-2 mt-md-0">
+                <div class="mb-3">
+                <p><img id="followers-icon" src="/assets/images/people-16.svg"> 
+                    <span class="text-bold color-fg-default">83</span> followers</p>
+                <p> · </p>    
+                <p><span class="text-bold color-fg-default">38</span> following</p>
+                <p> · </p>   
+                <p><img id="favorite-icon" src="/assets/images/star-16.svg"> 
+                    <span class="text-bold color-fg-default">33</span></p>
+                </div>
+            </div>
+            <ul class="vcard-details">
+                <li><img id="location-icon" src="/assets/images/location-16.svg">
+                    <span class="text-muted font-size-sm">Bronx, New York City, NY</span></li>
+                <li><img id="email-icon" src="/assets/images/mail-16.svg">
+                    <span class="text-muted font-size-sm">JaneDoe99@gmail.com</span></li>
+                <li><img id="link-icon" src="/assets/images/link-16.svg">
+                    <span class="text-muted font-size-sm">TheOnlyJaneDoe.com</span></li>
+                <li><img id="github-icon" src="/assets/images/mark-github-16.svg">
+                    <span class="text-muted font-size-sm">JaneDoe99@github.com</span></li>                    
+            </ul>
+            <br>
+            <br>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
