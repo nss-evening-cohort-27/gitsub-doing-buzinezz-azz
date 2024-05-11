@@ -16,7 +16,7 @@ export let projectCardList = () => {
         <div>
         <button class="btn btn-danger" id="delete--${project.id}">X</button>
         </div>
-    </div>
+      </div>
   </div>
     `;
     }
