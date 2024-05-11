@@ -1,6 +1,6 @@
 import { renderToDom } from "../utils/renderToDom.js";
 import { navStuff } from "../components/navbar.js";
-import { repos } from "../data/reposData";
+import { repos } from "../data/reposData.js";
 
 const renderNav = () =>{
   let nav = navStuff()
