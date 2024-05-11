@@ -5,6 +5,10 @@ const renderNav = () =>{
   let nav = navStuff()
   renderToDom("#navBar",nav)
 };
-
+const renderProForm = () =>{
+  let proForm = projectForm()
+  renderToDom("#pForm",proForm)
+}
 
 renderNav();
+renderProForm();

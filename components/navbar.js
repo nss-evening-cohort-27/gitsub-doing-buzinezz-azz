@@ -9,7 +9,7 @@ export const navStuff = () => {
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="#">Overview </a>
       <a class="nav-item nav-link" href="#">Repositories</a>
-      <a class="nav-item nav-link" href="#">Projects</a>
+      <a class="nav-item nav-link" href="projects.html">Projects</a>
       <a class="nav-item nav-link" href="#">Packages</a>
     </div>
   </div>
