@@ -1,4 +1,4 @@
-const repoData = [
+export const repos = [
   {
   id: 1,
   title: "My very first gitHub repo",
