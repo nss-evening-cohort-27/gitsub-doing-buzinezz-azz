@@ -33,26 +33,26 @@ const renderProForm = () =>{
       projectCardList(projects);
   });
   form.reset();
-  }
+  };
 
  // Create Pinned Repos Card
 const pinnedRepoCard = (repos) => {
-    let domString ="";
+    let pinnedDomString ="";
     for (const repo of repos) {
-  domString += `<div class="card" style="width: 18rem;">
+  pinnedDomString += `<div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${repo.title}</h5>
       <p class="card-text">${repo.description}</p>
-      <div class="repo-tag">${repo.tags}</div>
       <span class="repo-language">${repo.language} </span>
       <span class="stars">${repo.userFavorite}</span>
-      <span class="forks">${repo.forks}</span>
-      <span class="updated">${repos.updated}</span>
+      <span class="forks">${repo.forks}</spa>
+      <button class="btn-danger-btn" id="delete--${repo.id}"
+      background-color="red">Delete</button>
     </div>
   </div>`
   }
-  renderToDom("#repos", domString)
-  }
+  renderToDom("#repos", pinnedDomString)
+  };
 
   const startProjectApp = () =>{
   renderNav();
@@ -62,3 +62,5 @@ const pinnedRepoCard = (repos) => {
   eventListeners();
   pinnedRepoCard(repos);
   };
+
+  startProjectApp();
