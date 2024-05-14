@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(27, 83, 52);
+    color:rgb(230, 237, 243) ;
+  }
+
+  #pSection{
+    display: flex;
+    padding: 15px;
+    float: left;
+    
+    
+  }
+  #navBar{
+    display: flex;
+    width: 50%;
+    float: right;
+    padding: 1rem;
+  }
+
+  #formContainer{
+    display: flex;
+    float: right;
+    width: 50%;
+    border: 5px;
+    padding: 1rem;
+  }
