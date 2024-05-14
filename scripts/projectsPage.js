@@ -32,6 +32,8 @@ const form = document.querySelector('form');
     form.reset();
 });
 }
+
+
 const startProjectApp = () =>{
 renderNav();
 renderProForm();
