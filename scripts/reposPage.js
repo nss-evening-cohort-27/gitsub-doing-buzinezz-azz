@@ -3,14 +3,30 @@ import { navStuff } from "../components/navbar.js";
 import { repos } from "../data/reposData.js";
 
 const renderNav = () =>{
+  console.log("checking this out.")
   let nav = navStuff()
   renderToDom("#navBar",nav)
 };
 
 renderNav();
-console.log("checking this out.")
 
 console.log("this should be coming from the repoCard module.")
+
+const formOnDom = () => {
+  const repoSearchForm = `<form id=repoSearchForm>
+  <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="repository" placeholder="repository" required>
+      <label for="name">find the repo you're looking for</label>
+    </div>
+  <button type="submit" class="btn btn-success" id="form-submit">Sort</button>
+  </form>`
+}
+
+renderToDom("#repoSearchForm", repoSearchForm)
+
+formOnDom(repoSearchForm)
+
+console.log(repoSearchForm)
 
 const repoCard = (repos) => {
   let domString ="";
@@ -29,4 +45,8 @@ domString += `<div class="card" style="width: 18rem;">
 }
 renderToDom("#repos", domString)
 }
-console.log(repos)
+
+const repoPage = () => {
+  repoCard(repos)
+}
+repoPage()

@@ -29,6 +29,7 @@ const form = document.querySelector('form');
     projects.push(newProject);
 
     projectCardList(projects);
+    form.reset();
 });
 }
 const startProjectApp = () =>{
