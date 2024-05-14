@@ -18,15 +18,15 @@ const formOnDom = () => {
       <input type="text" class="form-control" id="repository" placeholder="repository" required>
       <label for="name">find the repo you're looking for</label>
     </div>
-  <button type="submit" class="btn btn-success" id="form-submit">Sort</button>
+  <button type="submit" class="btn btn-success" id="form-submit">search</button>
   </form>`
+  renderToDom("#repoSearchForm", repoSearchForm)
 }
 
-renderToDom("#repoSearchForm", repoSearchForm)
 
 formOnDom(repoSearchForm)
 
-console.log(repoSearchForm)
+console.log(formOnDom(repoSearchForm))
 
 const repoCard = (repos) => {
   let domString ="";
